@@ -22,7 +22,6 @@ subtitle                 : # A Github site by Claire Hale.
 name                     : "Claire Hale"
 description              : "My IIT asessment."
 url                      : "https://glodglodsson.github.io/Assignment-I/"
-baseurl:                 : #
 repository               : GlodGlodsson/Assignment-1
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
