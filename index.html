@@ -1,4 +1,44 @@
 ---
-layout: home
+title: Home
 author_profile: true
+layout: collection
+entries_layout: grid
+header:
+  overlay_image: /assets/images/default-banner.jpg
+  overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
+
+gallery:
+  - url: /about-me/
+    image_path: /assets/images/moi-tile.jpg
+    alt: "Black and grays with a hint of green"
+  - url: /questionnares/
+    image_path: /assets/images/question-tile.jpg
+    alt: "Made for open text placement"
+  - url: /interview/
+    image_path: /assets/images/interview-tile.jpg
+    alt: "Fog in the trees"
+gallery2:
+  - url: /dream-job/
+    image_path: /assets/images/dream-tile.jpg
+    alt: "Black and grays with a hint of green"
+  - url: /RMIT/
+    image_path: /assets/images/RMIT-tile.jpg
+    alt: "Made for open text placement"
+  - url: /project/
+    image_path: /assets/images/project-tile.jpg
+    alt: "Fog in the trees"
+gallery3:
+  - url:
+    image_path:
+    alt:
+  - url: /bibliography/
+    image_path: /assets/images/biblo-tile.jpg
+    alt: "Black and grays with a hint of green"
+  - url:
+    image_path:
+    alt:
+
 ---
+{% include gallery id="gallery" %}
+{% include gallery id="gallery2"%}
+{% include gallery id="gallery3"%}
